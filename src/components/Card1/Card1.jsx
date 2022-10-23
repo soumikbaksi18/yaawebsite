@@ -13,7 +13,7 @@ const Card1 = () => {
        
        <div className="productinfo" >
           <h2> Awesome Posters </h2>
-          <h4> premium quality tshirts to keep you groovy and comfortable throughout your awesome day </h4>
+          <h4> premium quality posters to keep your walls aesthetic </h4>
           <button type="button">Shop Posters</button>
        </div>
 

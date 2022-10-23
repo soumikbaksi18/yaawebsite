@@ -70,6 +70,7 @@ color:#7b3c93;
 .Right-Card{
   display: flex;
   justify-content: space-between;
+  margin-top: 18%;
 }
 
 .bingo1{
@@ -79,9 +80,24 @@ color:#7b3c93;
 }
 
 .productinfo{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position:relative;
+  width:200px;
+  right: 85%;
 
- 
-  position: absolute;
-  width:100px;
+}
 
+.productinfo h2{
+  color: #7b3c93;
+}
+
+.productinfo h4{
+  margin-top: -10px;
+}
+
+.poster1{
+  width: 180px;
+  margin-left: 10px;;
 }
