@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
+import Card1 from '../../components/Card1/Card1'
 import circle from "../../assets/Ellipse 5.svg"
 import Shirt1 from "../../assets/Shirt1.svg"
 const Home = () => {
@@ -24,8 +25,11 @@ const Home = () => {
 
 
 
+
     </div>
 
+    <Card1 />
+    
     </>
   )
 }

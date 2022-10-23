@@ -9,16 +9,19 @@ nav {
   padding-left: 10px;
 }
 
+
 .Cart {
   padding-top: 5px;
   padding-right: 10px;
 }
+
 
 .hero {
 display: flex;
 justify-content: space-between;
 padding-top: 50px;
 }
+
 
 button {
   box-sizing: border-box;
@@ -53,11 +56,32 @@ padding: 3px;
 
 }
 
+
 .Herotext h1 span{
   color:#7b3c93;
 }
 
+
 .Herotext h3{
 color:#7b3c93;
+
+}
+
+.Right-Card{
+  display: flex;
+  justify-content: space-between;
+}
+
+.bingo1{
+  position :relative;
+  z-index: -1;
+  right: 30%;
+}
+
+.productinfo{
+
+ 
+  position: absolute;
+  width:100px;
 
 }
