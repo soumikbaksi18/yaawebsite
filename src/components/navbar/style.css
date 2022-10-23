@@ -1,0 +1,63 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.Hamburger {
+  padding-top: 5px;
+  padding-left: 10px;
+}
+
+.Cart {
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.hero {
+display: flex;
+justify-content: space-between;
+padding-top: 50px;
+}
+
+button {
+  box-sizing: border-box;
+  background-color:#ffffff;
+  width: 175px;
+  height: 47px;
+  border: 3px solid #7b3c93;
+  font-size: 18px;
+}
+
+button:hover{
+  background-color: #7b3c93;
+  color:#ffffff;
+}
+
+.circle{
+  position :relative;
+  right: -5%;
+}
+
+.Shirt1{
+position: absolute;
+right: 3%;
+top: 16%;
+height: 280px;
+
+}
+
+.Herotext{
+margin-left: 14px;
+padding: 3px;
+
+}
+
+.Herotext h1 span{
+  color:#7b3c93;
+}
+
+.Herotext h3{
+color:#7b3c93;
+
+}
