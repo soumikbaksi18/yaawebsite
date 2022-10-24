@@ -1,6 +1,9 @@
 import React from 'react'
 import poster1 from "../../assets/Poster1.svg"
 import bingo1 from "../../assets/bingo1.svg"
+import './Card1.css'
+
+
 const Card1 = () => {
   return (
     <>

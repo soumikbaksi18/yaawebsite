@@ -1,0 +1,38 @@
+
+.Left-Card{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 18%;
+}
+
+
+.bingo2{
+  position :relative;
+  z-index: -1;
+  
+}
+
+.productinfo2{
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  position:relative;
+  width:200px;
+  right: 64%;
+
+}
+
+.productinfo2 h2{
+  color: #7b3c93;
+}
+
+.productinfo2 h4{
+  margin-top: -10px;
+}
+
+.poster2{
+  position: relative;
+   width: 160px;
+   margin-left: -235px;
+  
+  }
