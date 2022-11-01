@@ -1,6 +1,7 @@
 import React from "react";
 import poster1 from "../../assets/Poster1.svg";
 import bingo1 from "../../assets/bingo1.svg";
+import bingoborder from "../../assets/bingo-border-right.svg";
 import "./Card1.css";
 
 const Card1 = () => {
@@ -17,6 +18,9 @@ const Card1 = () => {
         <div className="product-info">
           <div className="bingo-box">
             <img src={bingo1} alt="bingo1" srcset="" className="bingo1" />
+          </div>
+          <div className="bingo-box2">
+            <img src={bingoborder} alt="bingo2" srcset="" className="bingo2" />
           </div>
           <div className="product-info-content">
             <h3>
