@@ -1,51 +1,46 @@
-
 .hero {
   display: flex;
   justify-content: space-between;
   padding-top: 50px;
-  }
-  
-  
-  button {
-    box-sizing: border-box;
-    background-color:#ffffff;
-    width: 175px;
-    height: 47px;
-    border: 3px solid #7b3c93;
-    font-size: 18px;
-  }
-  
-  button:hover{
-    background-color: #7b3c93;
-    color:#ffffff;
-  }
-  
-  .circle{
-    position :relative;
-    right: -5%;
-  }
-  
-  .Shirt1{
+}
+.Heroimages {
+  position: relative;
+}
+.Heroimages .circle {
+  position: relative;
+}
+.Heroimages .Shirt1 {
   position: absolute;
-  right: 3%;
-  top: 16%;
+  top: 5%;
+  left: -5%;
   height: 280px;
-  
-  }
-  
-  .Herotext{
+}
+
+.Herotext {
   margin-left: 14px;
   padding: 3px;
-  
-  }
-  
-  
-  .Herotext h1 span{
-    color:#7b3c93;
-  }
-  
-  
-  .Herotext h3{
-  color:#7b3c93;
-  
-  }
+}
+button {
+  box-sizing: border-box;
+  background-color: #ffffff;
+  width: 160px;
+  height: 47px;
+  border: 3px solid #7b3c93;
+  font-size: 18px;
+}
+button:hover {
+  background-color: #7b3c93;
+  color: #ffffff;
+}
+.Herotext {
+  margin-left: 14px;
+  padding: 3px;
+}
+
+.Herotext h1 span {
+  color: #7b3c93;
+}
+
+.Herotext h3 {
+  color: #7b3c93;
+}
