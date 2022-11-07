@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import SearchBar from "../../components/SearchBar/SearchBar";
 
 const Catalogue = () => {
   return (
-    <div>Catalogue</div>
-  )
-}
+    <>
+      <SearchBar />
+    </>
+  );
+};
 
-export default Catalogue
+export default Catalogue;
