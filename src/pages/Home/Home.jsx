@@ -37,6 +37,13 @@ const Home = () => {
 
       <br />
       <Card2 />
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <Card1 />
     </>
   );
 };
