@@ -16,11 +16,11 @@ nav {
 } */
 
 #menuToggle {
-  /* width: 100vw; */
-  /* display: block;
+  width: 10vw;
+  display: block;
   position: relative;
-  top: 30px;
-  left: 20px; */
+  /* top: 30px; */
+  left: 10px;
 
   z-index: 1;
   -webkit-user-select: none;

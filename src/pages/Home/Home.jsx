@@ -10,8 +10,6 @@ import "./style.css";
 const Home = () => {
   return (
     <>
-      {/* <Navbar /> */}
-
       <div className="hero">
         <div className="Herotext">
           <h1>
@@ -30,8 +28,15 @@ const Home = () => {
       </div>
 
       <Card1 />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
 
-      {/* <Card2 /> */}
+      <br />
+      <Card2 />
     </>
   );
 };

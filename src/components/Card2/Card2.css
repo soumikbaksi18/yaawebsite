@@ -1,38 +1,60 @@
-
-.Left-Card{
+.Left-Card {
   display: flex;
-  justify-content: space-between;
-  margin-top: 18%;
 }
-
-
-.bingo2{
-  position :relative;
-  z-index: -1;
-  
+.Left-Card .product-info {
+  position: relative;
 }
-
-.productinfo2{
+.Left-Card .product-info .bingo-box {
+  position: absolute;
+  z-index: -2;
+}
+.Left-Card .product-img {
+  position: absolute;
   display: flex;
-  flex-direction: column;
+  right: 40%;
+}
+.Left-Card .product-img {
+  position: relative;
+  display: flex;
+}
+.Left-Card .product-img .button-card {
+  display: flex;
+  align-self: flex-end;
+  width: 184px;
+  height: 47px;
+  position: relative;
+}
+.Left-Card .product-img .button-card button {
+  background: #7b3c93;
+  color: azure;
+}
+.Left-Card .product-img img {
+  width: 90%;
+}
+.Left-Card .product-info-content {
+  margin-top: 57px;
+  display: flex;
+  align-items: center;
   align-self: center;
-  position:relative;
-  width:200px;
-  right: 64%;
-
+  flex-direction: column;
 }
-
-.productinfo2 h2{
+.Left-Card .product-info-content h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.Left-Card .product-info-content h3 span {
   color: #7b3c93;
 }
+.Left-Card .product-info-content p {
+  /* margin-top: 30px; */
+  /* font-family: "Urbanist"; */
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #000000;
 
-.productinfo2 h4{
-  margin-top: -10px;
+  /* padding: 20px 20px 20px 0px; */
 }
-
-.poster2{
-  position: relative;
-   width: 160px;
-   margin-left: -235px;
-  
-  }
